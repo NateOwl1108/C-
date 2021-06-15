@@ -14,7 +14,6 @@ int main() {
 	for (int x = 0 ; x < my_list.size(); x++) {
 		std::cout << "Index " << x <<" has value " << *it << " and address " << &*it << '\n';
     std::advance(it, 1);
-
     
 	}
  
